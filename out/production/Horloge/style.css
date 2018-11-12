@@ -1,0 +1,26 @@
+.label {
+    -fx-alignment: center;
+    -fx-font-size: 40px;
+    -fx-background-color: rgba(255, 234, 127, 0.59);
+    -fx-font-family: 'Arial';
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 1), 2, 1, 1, 1);
+    -fx-wrap-text: true;
+}
+
+#root {
+    -fx-background-color: radial-gradient(radius 20%, repeat, rgba(212, 203, 38, 0.51), rgba(210, 121, 22, 0.51), rgba(46, 1, 4, 0.5), rgba(57, 83, 6, 0.5));
+    -fx-background-insets: 5, 0;
+}
+
+.button {
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 5, 0.0, 0, 1);
+    -fx-background-color: #4ca059;
+    -fx-font-size: 30px;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#b5ffb4, #86ff7e);
+}
