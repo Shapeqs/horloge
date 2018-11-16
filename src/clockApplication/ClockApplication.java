@@ -1,10 +1,15 @@
 package clockApplication;
 
+import clockControler.ClockControler;
 import clockView.*;
 import clockModel.ClockModel;
+import javafx.animation.Animation;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -12,22 +17,26 @@ import java.util.*;
 public class ClockApplication extends Application {
 
     private ClockModel model;
+    private ClockControler controler;
     private ArrayList<Stage> stages = new ArrayList<>();
-    private static ArrayList<ClockView> views = new ArrayList<>();
+
+    private final int SECOND_ADDED = 1;
+    private final long SLEEP_TIME_MILLISECOND = 1000;
 
     @Override
     public void start(Stage all) {
 
         Date d = new Date();
-        SimpleDateFormat h = new SimpleDateFormat ("hh");
-        SimpleDateFormat m = new SimpleDateFormat ("mm");
-        SimpleDateFormat s = new SimpleDateFormat ("ss");
+        SimpleDateFormat h = new SimpleDateFormat("hh");
+        SimpleDateFormat m = new SimpleDateFormat("mm");
+        SimpleDateFormat s = new SimpleDateFormat("ss");
         int H = Integer.parseInt(h.format(d));
         int M = Integer.parseInt(m.format(d));
         int S = Integer.parseInt(s.format(d));
 
         model = new ClockModel(H, M, S);
-        //model = new ClockModel(23, 59, 59);
+        //model = new ClockModel(0, 0, 0);
+        controler = new ClockControler(model);
 
         double height = 335;
         double width = 600;
@@ -39,14 +48,14 @@ public class ClockApplication extends Application {
 
         String name = "QUERRE";
 
-        PrimaryClockView primaryClockView = new PrimaryClockView(model);
-        DefaultClockView defaultClockView = new DefaultClockView(model);
-        HourClockView hourClockView = new HourClockView(model);
-        MinuteClockView minuteClockView = new MinuteClockView(model);
-        SecondClockView secondClockView = new SecondClockView(model);
+        ClockViewAll clockViewAll = new ClockViewAll(model, controler);
+        ButtonClockViewAll buttonClockViewAll = new ButtonClockViewAll(model, controler);
+        HourClockView hourClockView = new HourClockView(model, controler);
+        MinuteClockView minuteClockView = new MinuteClockView(model, controler);
+        SecondClockView secondClockView = new SecondClockView(model, controler);
 
-        model.addObserver(primaryClockView);
-        model.addObserver(defaultClockView);
+        model.addObserver(clockViewAll);
+        model.addObserver(buttonClockViewAll);
         model.addObserver(hourClockView);
         model.addObserver(minuteClockView);
         model.addObserver(secondClockView);
@@ -58,12 +67,12 @@ public class ClockApplication extends Application {
 
         all.setTitle(name + " - all");
         stages.add(all);
-        all.setScene(primaryClockView.scene());
+        all.setScene(clockViewAll.scene());
         all.setX(col2);
         all.setY(row1);
 
         all2.setTitle(name + " - all2");
-        all2.setScene(defaultClockView.scene());
+        all2.setScene(buttonClockViewAll.scene());
         stages.add(all2);
         all2.setX(col2);
         all2.setY(row3);
@@ -92,12 +101,46 @@ public class ClockApplication extends Application {
             stage.setMaxWidth(width);
             stage.setMinWidth(width);
             stage.setResizable(true);
-            stage.setOnCloseRequest(e->Platform.exit());
+            stage.setOnCloseRequest(e -> Platform.exit());
             stage.show();
         }
+
+        /*Platform.runLater(() -> {
+            final ScheduledService<Void> time = new ScheduledService<Void>() {
+                @Override
+                protected Task<Void> createTask() {
+                    return new Task<Void>() {
+
+                        @Override
+                        protected Void call() {
+                            Platform.runLater(() -> {
+                                controler.incSecond(SECOND_ADDED);
+                                try {
+                                    Thread.sleep(SLEEP_TIME_MILLISECOND);
+                                } catch (InterruptedException e) {
+                                    e.printStackTrace();
+                                }
+                                System.out.println(model.getHour() + ":" + model.getMinute() + ":" + model.getSecond());
+                            });
+                            return null;
+                        }
+                    };
+                }
+
+            };
+            time.start();
+        });*/
+
+        Timeline timeline = new Timeline(new KeyFrame(
+                Duration.millis(1000),
+                ae -> controler.incSecond(1)));
+        timeline.setCycleCount(Animation.INDEFINITE);
+        timeline.play();
+
+
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         launch(args);
     }
 }

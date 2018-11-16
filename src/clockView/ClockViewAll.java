@@ -1,13 +1,14 @@
 package clockView;
 
+import clockControler.ClockControler;
 import clockModel.ClockModel;
 
 import java.util.Observable;
 
-public class PrimaryClockView extends ClockView{
+public class ClockViewAll extends ClockView{
 
-    public PrimaryClockView(ClockModel model) {
-        super(model);
+    public ClockViewAll(ClockModel model, ClockControler controler) {
+        super(model, controler);
         time.setText(model.getHour() + "h:" + model.getMinute() + "m:" + model.getSecond() + "s");
     }
 

@@ -1,16 +1,16 @@
 package clockView;
 
-import clockApplication.ClockApplication;
+import clockControler.ClockControler;
 import clockModel.ClockModel;
 
 import java.util.Observable;
 
 public class SecondClockView extends ButtonClockView {
 
-    public SecondClockView(ClockModel model) {
-        super(model);
-        add.setOnAction(e->controler.incSecond(1));
-        sub.setOnAction(e->controler.incSecond(-1));
+    public SecondClockView(ClockModel model, ClockControler controler) {
+        super(model, controler);
+        add.setOnAction(e-> this.controler.incSecond(1));
+        sub.setOnAction(e-> this.controler.incSecond(-1));
         time.setText(model.getSecond() + "");
     }
 

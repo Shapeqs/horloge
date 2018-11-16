@@ -12,12 +12,12 @@ public abstract class ClockView implements Observer {
     private Scene scene;
     final AnchorPane pane = new AnchorPane();
     final Label time = new Label();
-    final ClockControler controler;
-    final ClockModel model;
+    protected ClockControler controler;
+    final protected ClockModel model;
 
-    ClockView(ClockModel model) {
+    ClockView(ClockModel model, ClockControler controler) {
         this.model = model;
-        controler = new ClockControler(model);
+        this.controler = controler;
         pane.setId("root");
         pane.getChildren().add(time);
         time.setLayoutX(180);

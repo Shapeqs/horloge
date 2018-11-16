@@ -1,15 +1,16 @@
 package clockView;
 
+import clockControler.ClockControler;
 import clockModel.ClockModel;
 
 import java.util.Observable;
 
 public class MinuteClockView extends ButtonClockView {
 
-    public MinuteClockView(ClockModel model) {
-        super(model);
-        add.setOnAction(e -> controler.incMinute(1));
-        sub.setOnAction(e -> controler.incMinute(-1));
+    public MinuteClockView(ClockModel model, ClockControler controler) {
+        super(model, controler);
+        add.setOnAction(e -> this.controler.incMinute(1));
+        sub.setOnAction(e -> this.controler.incMinute(-1));
         time.setText(model.getMinute() + "");
     }
 

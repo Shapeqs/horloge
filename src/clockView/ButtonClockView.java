@@ -1,15 +1,16 @@
 package clockView;
 
+import clockControler.ClockControler;
 import clockModel.ClockModel;
 import javafx.scene.control.Button;
 
 public abstract class ButtonClockView extends ClockView{
 
-    Button add = new Button("+");
-    Button sub = new Button("-");
+    Button add = new Button("  +  ");
+    Button sub = new Button("  -  ");
 
-    public ButtonClockView(ClockModel model) {
-        super(model);
+    public ButtonClockView(ClockModel model, ClockControler controler) {
+        super(model, controler);
         time.setLayoutX(270);
         add.setLayoutX(150);
         add.setLayoutY(200);
