@@ -8,6 +8,8 @@ import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.application.Platform;
+import javafx.concurrent.ScheduledService;
+import javafx.concurrent.Task;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
@@ -40,7 +42,7 @@ public class ClockApplication extends Application {
 
         double height = 335;
         double width = 600;
-        double col1 = 30;
+        double col1 = 1030;
         double col2 = 700;
         double row1 = 30;
         double row2 = 370;
@@ -105,7 +107,7 @@ public class ClockApplication extends Application {
             stage.show();
         }
 
-        /*Platform.runLater(() -> {
+        Platform.runLater(() -> {
             final ScheduledService<Void> time = new ScheduledService<Void>() {
                 @Override
                 protected Task<Void> createTask() {
@@ -115,11 +117,6 @@ public class ClockApplication extends Application {
                         protected Void call() {
                             Platform.runLater(() -> {
                                 controler.incSecond(SECOND_ADDED);
-                                try {
-                                    Thread.sleep(SLEEP_TIME_MILLISECOND);
-                                } catch (InterruptedException e) {
-                                    e.printStackTrace();
-                                }
                                 System.out.println(model.getHour() + ":" + model.getMinute() + ":" + model.getSecond());
                             });
                             return null;
@@ -128,14 +125,15 @@ public class ClockApplication extends Application {
                 }
 
             };
+            time.setPeriod(Duration.seconds(1));
             time.start();
-        });*/
+        });
 
-        Timeline timeline = new Timeline(new KeyFrame(
+        /*Timeline timeline = new Timeline(new KeyFrame(
                 Duration.millis(1000),
                 ae -> controler.incSecond(1)));
         timeline.setCycleCount(Animation.INDEFINITE);
-        timeline.play();
+        timeline.play();*/
 
 
     }
