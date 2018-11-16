@@ -22,14 +22,13 @@ public class ClockApplication extends Application {
     private ClockControler controler;
     private ArrayList<Stage> stages = new ArrayList<>();
 
-    private final int SECOND_ADDED = 1;
-    private final long SLEEP_TIME_MILLISECOND = 1000;
+    private final int SECOND_ADDED = 5;
 
     @Override
     public void start(Stage all) {
 
         Date d = new Date();
-        SimpleDateFormat h = new SimpleDateFormat("hh");
+        SimpleDateFormat h = new SimpleDateFormat("HH");
         SimpleDateFormat m = new SimpleDateFormat("mm");
         SimpleDateFormat s = new SimpleDateFormat("ss");
         int H = Integer.parseInt(h.format(d));
@@ -42,7 +41,7 @@ public class ClockApplication extends Application {
 
         double height = 335;
         double width = 600;
-        double col1 = 1030;
+        double col1 = 30;
         double col2 = 700;
         double row1 = 30;
         double row2 = 370;
@@ -125,7 +124,7 @@ public class ClockApplication extends Application {
                 }
 
             };
-            time.setPeriod(Duration.seconds(1));
+            time.setPeriod(Duration.seconds(SECOND_ADDED));
             time.start();
         });
 
