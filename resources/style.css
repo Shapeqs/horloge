@@ -13,12 +13,12 @@
 
 .button {
     -fx-text-align: center;
-    -fx-border: 0px, 0px, 0px, 0px;
     -fx-padding: 10px;
     -fx-font-size: 40px;
     -fx-text-fill: #1da1f2;
     -fx-background-color: rgba(0, 0, 0, 0);
     -fx-border-color: #1da1f2;
+    -fx-border-width: 2px;
     -fx-border-radius: 40%;
 }
 
