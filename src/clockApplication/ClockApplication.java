@@ -113,7 +113,6 @@ public class ClockApplication extends Application {
                         protected Void call() {
                             Platform.runLater(() -> {
                                 controler.incSecond(SECOND_ADDED);
-                                System.out.println(model.getHour() + ":" + model.getMinute() + ":" + model.getSecond());
                             });
                             return null;
                         }
@@ -125,6 +124,7 @@ public class ClockApplication extends Application {
             time.start();
         });
 
+        //Fonction de timeline 
         /*Timeline timeline = new Timeline(new KeyFrame(
                 Duration.millis(1000),
                 ae -> controler.incSecond(1)));

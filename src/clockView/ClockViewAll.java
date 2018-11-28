@@ -10,6 +10,7 @@ public class ClockViewAll extends ClockView{
     public ClockViewAll(ClockModel model, ClockControler controler) {
         super(model, controler);
         time.setText(model.getHour() + "h:" + model.getMinute() + "m:" + model.getSecond() + "s");
+        time.setEditable(false);
     }
 
     @Override

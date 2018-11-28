@@ -3,12 +3,16 @@
     -fx-background-color: #343a40;
 }
 
-.label {
-    -fx-font-size: 50px;
+.text-field {
     -fx-font-family: Roboto;
-    -fx-text-fill: #fff;
+    -fx-background-color: #343a40;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
     -fx-alignment: center;
-    -fx-effect: dropshadow(gaussian, rgb(30, 91, 159), 2, 1, 1, 1);
+    -fx-font-size: 40px;
+    -fx-text-fill: #fff;
+    -fx-border-width: 2px;
+    -fx-border-color: #1da1f2;
+    -fx-border-radius: 40%;
 }
 
 .button {
@@ -24,4 +28,5 @@
 
 .button:hover {
     -fx-border-color: #fff;
+    -fx-text-fill: #00dfff;
 }

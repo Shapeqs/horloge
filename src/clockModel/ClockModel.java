@@ -62,4 +62,6 @@ public class ClockModel extends Observable {
             throw new ClockException("Secondes non comprises entre 0 et 59");
         }
     }
+
+
 }

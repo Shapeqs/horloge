@@ -11,7 +11,7 @@ public abstract class ButtonClockView extends ClockView{
 
     public ButtonClockView(ClockModel model, ClockControler controler) {
         super(model, controler);
-        time.setLayoutX(270);
+        time.setLayoutX(70);
         add.setLayoutX(150);
         add.setLayoutY(200);
         sub.setLayoutX(add.getLayoutX() + 220);

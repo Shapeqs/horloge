@@ -3,6 +3,7 @@ package clockView;
 import clockControler.ClockControler;
 import clockModel.ClockModel;
 import javafx.scene.control.Button;
+import javafx.scene.input.KeyCode;
 
 import java.util.Observable;
 
@@ -10,7 +11,8 @@ public class ButtonClockViewAll extends ButtonClockView {
 
     public ButtonClockViewAll(ClockModel model, ClockControler controler) {
         super(model, controler);
-        time.setLayoutX(180);
+        time.setLayoutX(80);
+        time.setEditable(false);
 
         Button third = new Button("+1000s");
         third.setOnAction(e-> this.controler.incSecond(1000));
