@@ -21,7 +21,7 @@ public class MinuteClockView extends ButtonClockView {
                 } catch (NumberFormatException exeption){
                     number = model.getMinute();
                 }
-                this.controler.incHour(number-model.getMinute());
+                this.controler.incMinute(number-model.getMinute());
             }
         });
     }

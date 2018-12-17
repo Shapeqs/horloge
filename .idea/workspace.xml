@@ -1,26 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0daf5ffa-6ae0-4ae2-be5b-399f070a43ae" name="Default Changelist" comment="Add Text Area">
+    <list default="true" id="0daf5ffa-6ae0-4ae2-be5b-399f070a43ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Horloge/clockApplication/ClockApplication$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Horloge/clockApplication/ClockApplication$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Horloge/clockApplication/ClockApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Horloge/clockApplication/ClockApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Horloge/clockView/ButtonClockView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Horloge/clockView/ButtonClockView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Horloge/clockView/ButtonClockViewAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Horloge/clockView/ButtonClockViewAll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Horloge/clockView/ClockView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Horloge/clockView/ClockView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Horloge/clockView/ClockViewAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Horloge/clockView/ClockViewAll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Horloge/clockView/HourClockView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Horloge/clockView/HourClockView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Horloge/clockView/MinuteClockView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Horloge/clockView/MinuteClockView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Horloge/clockView/SecondClockView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Horloge/clockView/SecondClockView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Horloge/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Horloge/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clockApplication/ClockApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clockApplication/ClockApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clockModel/ClockModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clockModel/ClockModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clockView/ButtonClockView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clockView/ButtonClockView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clockView/ButtonClockViewAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clockView/ButtonClockViewAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clockView/ClockView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clockView/ClockView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clockView/ClockViewAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clockView/ClockViewAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clockView/HourClockView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clockView/HourClockView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/clockView/MinuteClockView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clockView/MinuteClockView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/clockView/SecondClockView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clockView/SecondClockView.java" afterDir="false" />
     </list>
@@ -35,14 +17,14 @@
     <session id="1967353981">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -58,7 +40,7 @@
           <entry key="css" value="3" />
           <entry key="fxml" value="3" />
           <entry key="iml" value="1" />
-          <entry key="java" value="36" />
+          <entry key="java" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -66,7 +48,7 @@
           <entry key="CLASS" value="29" />
           <entry key="CSS" value="3" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="36" />
+          <entry key="JAVA" value="40" />
           <entry key="UML" value="9" />
           <entry key="XML" value="3" />
         </counts>
@@ -76,15 +58,15 @@
           <entry key="css" value="1049" />
           <entry key="dummy" value="33" />
           <entry key="fxml" value="7" />
-          <entry key="java" value="10433" />
-          <entry key="txt" value="155" />
+          <entry key="java" value="10442" />
+          <entry key="txt" value="180" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1049" />
-          <entry key="JAVA" value="10433" />
-          <entry key="PLAIN_TEXT" value="188" />
+          <entry key="JAVA" value="10442" />
+          <entry key="PLAIN_TEXT" value="213" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
@@ -96,11 +78,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/clockView/SecondClockView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="418">
+              <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,17 +93,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clockApplication/ClockApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-440">
+            <state relative-caret-position="220">
               <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clockView/ClockView.java">
+        <entry file="file://$PROJECT_DIR$/src/clockControler/ClockControler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="616">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,23 +112,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clockView/ButtonClockViewAll.java">
+        <entry file="file://$PROJECT_DIR$/src/clockView/ClockView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="374">
+              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clockView/HourClockView.java">
+        <entry file="file://$PROJECT_DIR$/src/clockException/ClockException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-              <folding>
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="66">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -154,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clockView/MinuteClockView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="418">
+              <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -163,8 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clockModel/ClockModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="-462">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#490#491#0" expanded="true" />
@@ -182,7 +163,7 @@
         <entry file="file://$PROJECT_DIR$/src/clockView/ClockViewAll.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -196,7 +177,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
@@ -251,9 +232,9 @@
         <option value="$PROJECT_DIR$/src/clockView/ButtonClockView.java" />
         <option value="$PROJECT_DIR$/src/clockView/ButtonClockViewAll.java" />
         <option value="$PROJECT_DIR$/src/clockView/HourClockView.java" />
+        <option value="$PROJECT_DIR$/resources/style.css" />
         <option value="$PROJECT_DIR$/src/clockView/MinuteClockView.java" />
         <option value="$PROJECT_DIR$/src/clockView/SecondClockView.java" />
-        <option value="$PROJECT_DIR$/resources/style.css" />
       </list>
     </option>
   </component>
@@ -281,7 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,6 +328,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -358,6 +339,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542471127161" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tpString-etu" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -496,7 +478,10 @@
       <workItem from="1542619994490" duration="3323000" />
       <workItem from="1542735752256" duration="755000" />
       <workItem from="1543305600375" duration="755000" />
-      <workItem from="1543410798753" duration="1716000" />
+      <workItem from="1543410798753" duration="1977000" />
+      <workItem from="1543419630228" duration="73000" />
+      <workItem from="1543509900613" duration="298000" />
+      <workItem from="1545086370400" duration="527000" />
     </task>
     <task id="LOCAL-00001" summary="Add thread + style modified">
       <created>1542378845641</created>
@@ -526,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542470966687</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Text Area to update Clock">
+      <created>1543412547262</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543412547262</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -562,7 +554,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103523000" />
+    <option name="totallyTimeSpent" value="104682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -573,7 +565,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16487648" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17132115" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="1" />
@@ -610,7 +602,8 @@
     <MESSAGE value="Add real thread gestion with ScheduleSerevice" />
     <MESSAGE value="Fix hours in 0-23 format" />
     <MESSAGE value="Fix style" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix style" />
+    <MESSAGE value="Add Text Area to update Clock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Text Area to update Clock" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Horloge.iml">
@@ -717,13 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clockException/ClockException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1013,6 +999,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jfxrt.jar!/javafx/scene/control/TextInputControl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="307" column="22" selection-start-line="307" selection-start-column="22" selection-end-line="307" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clockView/ButtonClockViewAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clockView/HourClockView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clockView/ClockViewAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clockView/ButtonClockView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clockApplication/ClockApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/clockControler/ClockControler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -1023,21 +1058,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jfxrt.jar!/javafx/scene/control/TextInputControl.class">
+    <entry file="file://$PROJECT_DIR$/src/clockException/ClockException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="307" column="22" selection-start-line="307" selection-start-column="22" selection-end-line="307" selection-end-column="22" />
-          <folding>
-            <element signature="e#10654#10655#0" expanded="true" />
-            <element signature="e#10699#10700#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clockModel/ClockModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="-462">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#490#491#0" expanded="true" />
@@ -1050,76 +1081,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clockView/ClockViewAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clockApplication/ClockApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clockView/ButtonClockView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clockView/ButtonClockViewAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/clockView/ClockView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="374">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clockView/HourClockView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clockView/MinuteClockView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="418">
+          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clockView/SecondClockView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="418">
+          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -21,7 +21,7 @@ public class SecondClockView extends ButtonClockView {
                 } catch (NumberFormatException exeption){
                     number = model.getSecond();
                 }
-                this.controler.incHour(number-model.getSecond());
+                this.controler.incSecond(number-model.getSecond());
             }
         });
     }
